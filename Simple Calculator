@@ -9,35 +9,48 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: palevioletred;
+      background-color: rgb(250, 249, 249);
       height: 600px;
       width: 1300px;;
       margin: 1;
+      
     }
 
     #calculator {
       display: grid;
+      border: 1px solid black;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 10px;
-      max-width: 5%;
+      padding: 20px;
+      border-radius: 30px;
+      background-color: black;
+      
     }
 
     #display {
+      border: solid black 1px;
+      border-radius: 3px;
+      background-color: #fafbfc ;
+      
       grid-column: span 4;
       padding: 10px;
       text-align: right;
       font-size: 1.5em;
+      height: 30px;
     }
 
     button {
-      padding: 10px;
-      font-size: 2em;
-      border: 2px solid darkgreen ;
+      padding: 15px;
+      font-size: 1.5em;
+      border: 2px solid rgb(247, 165, 72) ;
       cursor: pointer;
+      border-radius: 10px;
+      background-color: #CCD1D1;
+      
     }
 
     button:active {
-      background-color: skyblue;
+      background-color: rgb(236, 139, 54);
     }
   </style>
   <title>Simple Calculator</title>
